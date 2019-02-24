@@ -16,6 +16,7 @@ class Tabs extends React.Component {
   }
   onHandleChange(newTab){
      this.setState({ isVisibleTab : newTab });
+     console.log(newTab.title);
   }
 
  render() {
